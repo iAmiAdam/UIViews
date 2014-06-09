@@ -23,6 +23,16 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     
+    <TimePicker android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button android:id="@+id/btnSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am all set!"
+        android:onClick="onClickTime" />
+    
     <Button android:id="@+id/btnOpen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
